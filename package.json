@@ -1,5 +1,5 @@
 {
-  "name": "@plask/ds",
+  "name": "@myplask/ds",
   "version": "0.1.0",
   "description": "Design System in Plask",
   "author": "Plask Inc.",
@@ -29,14 +29,17 @@
     "rollup-plugin-url": "^3.0.1",
     "typescript": "^4.1.2"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xBono/plask-design-system.git"
+    "url": "git+https://github.com/myplask/plask-design-system.git"
   },
   "bugs": {
-    "url": "https://github.com/0xBono/plask-design-system/issues"
+    "url": "https://github.com/myplask/plask-design-system/issues"
   },
-  "homepage": "https://github.com/0xBono/plask-design-system#readme",
+  "homepage": "https://github.com/myplask/plask-design-system#readme",
   "keywords": [
     "plask",
     "design-system"
