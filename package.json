@@ -1,6 +1,6 @@
 {
-  "name": "@myplask/ds",
-  "version": "0.1.0",
+  "name": "@myplask/pds",
+  "version": "0.1.1",
   "description": "Design System in Plask",
   "author": "Plask Inc.",
   "license": "ISC",
@@ -34,12 +34,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myplask/plask-design-system.git"
+    "url": "git+https://github.com/myplask/pds.git"
   },
   "bugs": {
-    "url": "https://github.com/myplask/plask-design-system/issues"
+    "url": "https://github.com/myplask/pds/issues"
   },
-  "homepage": "https://github.com/myplask/plask-design-system#readme",
+  "homepage": "https://github.com/myplask/pdsreadme",
   "keywords": [
     "plask",
     "design-system"
