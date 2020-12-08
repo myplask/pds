@@ -1,0 +1,23 @@
+{
+  "name": "@plask/ds",
+  "version": "0.1.0",
+  "description": "Design System in Plask",
+  "author": "Plask Inc.",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xBono/plask-design-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/0xBono/plask-design-system/issues"
+  },
+  "homepage": "https://github.com/0xBono/plask-design-system#readme",
+  "keywords": [
+    "plask",
+    "design-system"
+  ]
+}
