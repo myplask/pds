@@ -15,10 +15,10 @@ const Example: React.FC<{}> = () => {
 ### Worked
 
 <b>Core</b>  
-[X] Color  
-[ ] Icons  
-[ ] Spacing  
-[ ] Typo  
+- [x] Color  
+- [ ] Icons  
+- [ ] Spacing  
+- [ ] Typo  
 
 ### Publish
 현재 파일에는 .npmrc가 포함되어 있지 않습니다. 프로젝트를 클론하신다면 .npmrc를 추가해주세요.
