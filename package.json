@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "build": "yarn rollup -c && yarn build:type",
-    "build:type": "tsc --emitDeclarationOnly"
+    "build:type": "tsc --emitDeclarationOnly",
+    "publish": "yarn publish"
   },
   "peerDependencies": {
     "lodash": "^4.17.20",
