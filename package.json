@@ -1,13 +1,19 @@
 {
   "name": "@myplask/pds",
-  "version": "0.1.1",
+  "version": "0.1.96",
   "description": "Design System in Plask",
   "author": "Plask Inc.",
   "license": "ISC",
   "main": "dist/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "yarn rollup -c && yarn build:type",
-    "build:type": "tsc --emitDeclarationOnly"
+    "build:type": "tsc --emitDeclarationOnly",
+    "publish": "yarn publish"
   },
   "peerDependencies": {
     "lodash": "^4.17.20",
@@ -26,20 +32,21 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-url": "^3.0.1",
     "typescript": "^4.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myplask/pds.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/myplask/pds.git"
-  },
   "bugs": {
     "url": "https://github.com/myplask/pds/issues"
   },
-  "homepage": "https://github.com/myplask/pdsreadme",
+  "homepage": "https://github.com/myplask/pds/readme",
   "keywords": [
     "plask",
     "design-system"
