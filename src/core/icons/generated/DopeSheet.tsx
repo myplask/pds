@@ -5,66 +5,73 @@ export const Dopesheet = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path stroke={fillColor} d="M6.25 12.5h5M13.25 12.5h5" />
-      <mask id="Dope_sheet_svg__a" fill="#fff">
+      <defs>
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M4.75 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          d="M2.75 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          id="Dope_sheet_svg__a"
         />
-      </mask>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M4.75 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
-        fill="#398BFF"
-      />
-      <path
-        d="M5.75 12.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
-        fill={fillColor}
-        mask="url(#Dope_sheet_svg__a)"
-      />
-      <mask id="Dope_sheet_svg__b" fill="#fff">
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M12.25 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          d="M2.25 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          id="Dope_sheet_svg__c"
         />
-      </mask>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M12.25 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
-        fill="#398BFF"
-      />
-      <path
-        d="M13.25 12.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
-        fill={fillColor}
-        mask="url(#Dope_sheet_svg__b)"
-      />
-      <mask id="Dope_sheet_svg__c" fill="#fff">
         <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M19.25 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          d="M2.25 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          id="Dope_sheet_svg__e"
         />
-      </mask>
-      <path
-        fillRule="evenodd"
-        clipRule="evenodd"
-        d="M19.25 14.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
-        fill="#398BFF"
-      />
-      <path
-        d="M20.25 12.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
-        fill={fillColor}
-        mask="url(#Dope_sheet_svg__c)"
-      />
+      </defs>
+      <g fill="none" fillRule="evenodd">
+        <path stroke={fillColor} d="M4.25 2.5h5M11.25 2.5h5" />
+        <path
+          d="M2.75 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          fill="#398BFF"
+        />
+        <g>
+          <mask id="Dope_sheet_svg__b" fill="#fff">
+            <use xlinkHref="#Dope_sheet_svg__a" />
+          </mask>
+          <path
+            d="M3.75 2.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
+            fill={fillColor}
+            fillRule="nonzero"
+            mask="url(#Dope_sheet_svg__b)"
+          />
+        </g>
+        <path
+          d="M10.25 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          fill="#398BFF"
+        />
+        <g transform="translate(8)">
+          <mask id="Dope_sheet_svg__d" fill="#fff">
+            <use xlinkHref="#Dope_sheet_svg__c" />
+          </mask>
+          <path
+            d="M3.25 2.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
+            fill={fillColor}
+            fillRule="nonzero"
+            mask="url(#Dope_sheet_svg__d)"
+          />
+        </g>
+        <path
+          d="M17.25 4.5a2 2 0 100-4 2 2 0 000 4zm0-1a1 1 0 100-2 1 1 0 000 2z"
+          fill="#398BFF"
+        />
+        <g transform="translate(15)">
+          <mask id="Dope_sheet_svg__f" fill="#fff">
+            <use xlinkHref="#Dope_sheet_svg__e" />
+          </mask>
+          <path
+            d="M3.25 2.5a1 1 0 01-1 1v2a3 3 0 003-3h-2zm-1-1a1 1 0 011 1h2a3 3 0 00-3-3v2zm-1 1a1 1 0 011-1v-2a3 3 0 00-3 3h2zm1 1a1 1 0 01-1-1h-2a3 3 0 003 3v-2zm0-1v2a2 2 0 002-2h-2zm0 0h2a2 2 0 00-2-2v2zm0 0v-2a2 2 0 00-2 2h2zm0 0h-2a2 2 0 002 2v-2z"
+            fill={fillColor}
+            fillRule="nonzero"
+            mask="url(#Dope_sheet_svg__f)"
+          />
+        </g>
+      </g>
     </svg>
   )
 );

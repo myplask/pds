@@ -1,4 +1,12 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="12" cy="12" r="12" fill="#3785F7"/>
-<path d="M5.46967 12.5303C5.17678 12.2374 5.17678 11.7626 5.46967 11.4697L10.2426 6.6967C10.5355 6.40381 11.0104 6.40381 11.3033 6.6967C11.5962 6.98959 11.5962 7.46447 11.3033 7.75736L7.06066 12L11.3033 16.2426C11.5962 16.5355 11.5962 17.0104 11.3033 17.3033C11.0104 17.5962 10.5355 17.5962 10.2426 17.3033L5.46967 12.5303ZM18 12.75L6 12.75L6 11.25L18 11.25L18 12.75Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow_left_circle</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-792.000000, -1441.000000)" fill-rule="nonzero">
+            <g id="arrow_left_circle" transform="translate(792.000000, 1441.000000)">
+                <circle id="Oval" fill="#3785F7" cx="12" cy="12" r="12"></circle>
+                <path d="M5.46967,12.5303 C5.17678,12.2374 5.17678,11.7626 5.46967,11.4697 L10.2426,6.6967 C10.5355,6.40381 11.0104,6.40381 11.3033,6.6967 C11.5962,6.98959 11.5962,7.46447 11.3033,7.75736 L7.06066,12 L11.3033,16.2426 C11.5962,16.5355 11.5962,17.0104 11.3033,17.3033 C11.0104,17.5962 10.5355,17.5962 10.2426,17.3033 L5.46967,12.5303 Z M18,12.75 L6,12.75 L6,11.25 L18,11.25 L18,12.75 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
 </svg>

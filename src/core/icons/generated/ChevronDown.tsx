@@ -5,12 +5,16 @@ export const ChevronDown = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path d="M16 10l-4 4-4-4" stroke={fillColor} />
+      <path
+        d="M9 1L5 5 1 1"
+        stroke={fillColor}
+        fill="none"
+        fillRule="evenodd"
+      />
     </svg>
   )
 );

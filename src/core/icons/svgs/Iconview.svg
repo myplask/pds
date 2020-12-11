@@ -1,6 +1,14 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="6" y="6" width="5.45455" height="5.45455" rx="1" fill="black"/>
-<rect x="12.5454" y="6" width="5.45455" height="5.45455" rx="1" fill="black"/>
-<rect x="6" y="12.5454" width="5.45455" height="5.45455" rx="1" fill="black"/>
-<rect x="12.5454" y="12.5454" width="5.45455" height="5.45455" rx="1" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Iconview</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-798.000000, -1447.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Iconview" transform="translate(798.000000, 1447.000000)">
+                <rect id="Rectangle" x="0" y="0" width="5.45455" height="5.45455" rx="1"></rect>
+                <rect id="Rectangle" x="6.5454" y="0" width="5.45455" height="5.45455" rx="1"></rect>
+                <rect id="Rectangle" x="0" y="6.5454" width="5.45455" height="5.45455" rx="1"></rect>
+                <rect id="Rectangle" x="6.5454" y="6.5454" width="5.45455" height="5.45455" rx="1"></rect>
+            </g>
+        </g>
+    </g>
 </svg>

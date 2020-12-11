@@ -5,14 +5,14 @@ export const CaretRightSmall = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
       <path
-        d="M13.816 11.654a.2.2 0 000-.308l-2.488-2.073a.2.2 0 00-.328.154v4.146a.2.2 0 00.328.154l2.488-2.073z"
+        d="M2.816 2.654a.2.2 0 000-.308L.328.273A.2.2 0 000 .427v4.146a.2.2 0 00.328.154l2.488-2.073z"
         fill={fillColor}
+        fillRule="nonzero"
       />
     </svg>
   )

@@ -1,3 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17.5192 11.1362C18.1807 11.5221 18.1807 12.4779 17.5192 12.8638L8.50387 18.1227C7.83721 18.5116 7 18.0308 7 17.259L7 6.74104C7 5.96925 7.83722 5.48837 8.50387 5.87726L17.5192 11.1362Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="14px" viewBox="0 0 12 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Play arrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-799.000000, -1446.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Play-arrow" transform="translate(799.000000, 1446.000000)">
+                <path d="M10.5192,6.1362 C11.1807,6.5221 11.1807,7.4779 10.5192,7.8638 L1.50387,13.1227 C0.83721,13.5116 0,13.0308 0,12.259 L0,1.74104 C0,0.96925 0.83722,0.48837 1.50387,0.87726 L10.5192,6.1362 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -1,4 +1,12 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" rx="4" fill="#3785F7"/>
-<path d="M7.78321 7.04793L18.0577 10.4727L13.2969 11.8881C12.973 11.9844 12.7197 12.2378 12.6234 12.5617L11.208 17.3224L7.78321 7.04793Z" stroke="white"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor_Square</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-792.000000, -1441.000000)">
+            <g id="Cursor_Square" transform="translate(792.000000, 1441.000000)">
+                <rect id="Rectangle" fill="#3785F7" fill-rule="nonzero" x="0" y="0" width="24" height="24" rx="4"></rect>
+                <path d="M7.78321,7.04793 L18.0577,10.4727 L13.2969,11.8881 C12.973,11.9844 12.7197,12.2378 12.6234,12.5617 L11.208,17.3224 L7.78321,7.04793 Z" id="Path" stroke="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
 </svg>

@@ -5,17 +5,19 @@ export const ArrowExpand = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
-        d="M14 5h5v5M10 19H5v-5"
+      <g
         stroke={fillColor}
         strokeWidth={2}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
-      />
+      >
+        <path d="M10 1h5v5M6 15H1v-5" />
+      </g>
     </svg>
   )
 );

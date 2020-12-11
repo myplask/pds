@@ -5,16 +5,18 @@ export const Listview = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
+      <g
         stroke={fillColor}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
-        d="M6.5 7.5h11M9.5 10.5h8M6.5 13.5h11M9.5 16.5h8"
-      />
+      >
+        <path d="M.5.5h11M3.5 3.5h8M.5 6.5h11M3.5 9.5h8" />
+      </g>
     </svg>
   )
 );

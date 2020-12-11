@@ -5,32 +5,34 @@ export const Magnifyingglass = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <circle
-        cx={10.232}
-        cy={10.232}
-        r={5}
-        transform="rotate(-45 10.232 10.232)"
-        stroke={fillColor}
-      />
-      <path
-        d="M12.708 12.707a3.5 3.5 0 01-4.95 0"
-        stroke={fillColor}
-        strokeLinecap="round"
-      />
-      <rect
-        x={12.707}
-        y={14.121}
-        width={2}
-        height={6}
-        rx={1}
-        transform="rotate(-45 12.707 14.121)"
-        fill={fillColor}
-      />
+      <g transform="translate(1 1)" fill="none" fillRule="evenodd">
+        <circle
+          stroke={fillColor}
+          transform="rotate(-45 7.232 7.232)"
+          cx={7.232}
+          cy={7.232}
+          r={5}
+        />
+        <path
+          d="M9.708 9.707a3.5 3.5 0 01-4.95 0"
+          stroke={fillColor}
+          strokeLinecap="round"
+        />
+        <rect
+          fill={fillColor}
+          fillRule="nonzero"
+          transform="rotate(-45 12.535 12.536)"
+          x={11.535}
+          y={9.536}
+          width={2}
+          height={6}
+          rx={1}
+        />
+      </g>
     </svg>
   )
 );

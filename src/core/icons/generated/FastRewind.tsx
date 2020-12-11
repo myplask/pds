@@ -5,15 +5,13 @@ export const Fastrewind = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
-        d="M12.715 11.571a.5.5 0 000 .858l3.528 2.117a.5.5 0 00.757-.43V9.884a.5.5 0 00-.757-.429l-3.528 2.117zM6.715 11.571a.5.5 0 000 .858l3.528 2.117a.5.5 0 00.757-.43V9.884a.5.5 0 00-.757-.429l-3.528 2.117z"
-        fill={fillColor}
-      />
+      <g fill={fillColor} fillRule="nonzero">
+        <path d="M6.715 2.571a.5.5 0 000 .858l3.528 2.117a.5.5 0 00.757-.43V.884a.5.5 0 00-.757-.429L6.715 2.571zM.715 2.571a.5.5 0 000 .858l3.528 2.117A.5.5 0 005 5.116V.884a.5.5 0 00-.757-.429L.715 2.571z" />
+      </g>
     </svg>
   )
 );

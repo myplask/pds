@@ -5,14 +5,15 @@ export const Image = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <rect x={7} y={7} width={10} height={10} rx={1} fill={fillColor} />
-      <path d="M11.967 10.636l3.15 4.773H8.818l3.15-4.773z" fill="#E7E7E7" />
-      <circle cx={14.272} cy={9.727} fill="#E7E7E7" r={0.909} />
+      <g fillRule="nonzero" fill="none">
+        <rect fill={fillColor} width={10} height={10} rx={1} />
+        <path fill="#E7E7E7" d="M4.968 3.636L8.117 8.41H1.818z" />
+        <circle fill="#E7E7E7" cx={7.272} cy={2.727} r={1} />
+      </g>
     </svg>
   )
 );

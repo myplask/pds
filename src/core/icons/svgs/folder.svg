@@ -1,3 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M16.5 16H7.5C7.22386 16 7 15.7761 7 15.5V8.5C7 8.22386 7.22386 8 7.5 8H10.7076C10.8882 8 11.0548 8.09743 11.1434 8.25487L11.8566 9.52291C11.9452 9.68035 12.1118 9.77778 12.2924 9.77778L16.5 9.77778C16.7761 9.77778 17 10.0016 17 10.2778V15.5C17 15.7761 16.7761 16 16.5 16Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="8px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>folder</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-799.000000, -1449.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="folder" transform="translate(799.000000, 1449.000000)">
+                <path d="M9.5,8 L0.5,8 C0.22386,8 0,7.7761 0,7.5 L0,0.5 C0,0.22386 0.22386,0 0.5,0 L3.7076,0 C3.8882,0 4.0548,0.09743 4.1434,0.25487 L4.8566,1.52291 C4.9452,1.68035 5.1118,1.77778 5.2924,1.77778 L9.5,1.77778 C9.7761,1.77778 10,2.0016 10,2.2778 L10,7.5 C10,7.7761 9.7761,8 9.5,8 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>

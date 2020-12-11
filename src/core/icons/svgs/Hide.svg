@@ -1,6 +1,14 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M17 10C16.2232 11.7659 14.0644 13 12 13C9.93562 13 7.77685 11.7659 7 10" stroke="black" stroke-linecap="round"/>
-<path d="M8.41406 12L7.41406 13" stroke="black" stroke-linecap="round"/>
-<path d="M16 12L17 13" stroke="black" stroke-linecap="round"/>
-<path d="M12 13V14.4142" stroke="black" stroke-linecap="round"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="6px" viewBox="0 0 12 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Hide</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="A0" transform="translate(-798.000000, -1450.000000)" stroke="#000000">
+            <g id="Hide" transform="translate(799.000000, 1451.000000)">
+                <path d="M10,0 C9.2232,1.7659 7.0644,3 5,3 C2.93562,3 0.77685,1.7659 0,0" id="Path"></path>
+                <line x1="1.41406" y1="2" x2="0.41406" y2="3" id="Path"></line>
+                <line x1="9" y1="2" x2="10" y2="3" id="Path"></line>
+                <line x1="5" y1="3" x2="5" y2="4.4142" id="Path"></line>
+            </g>
+        </g>
+    </g>
 </svg>

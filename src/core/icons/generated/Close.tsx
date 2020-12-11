@@ -5,15 +5,16 @@ export const Close = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
       <path
-        d="M6 6l12 12m0-12L6 18"
+        d="M1 1l12 12m0-12L1 13"
         stroke={fillColor}
         strokeWidth={2}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
       />
     </svg>

@@ -1,3 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.8464 13.3156C11.9263 13.4116 12.0737 13.4116 12.1536 13.3156L14.2266 10.828C14.3352 10.6978 14.2426 10.5 14.073 10.5L9.92701 10.5C9.75744 10.5 9.66481 10.6978 9.77336 10.828L11.8464 13.3156Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="4px" viewBox="0 0 6 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>caret-down-small</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-801.000000, -1451.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="caret-down-small" transform="translate(801.000000, 1451.000000)">
+                <path d="M2.8464,3.3156 C2.9263,3.4116 3.0737,3.4116 3.1536,3.3156 L5.2266,0.828 C5.3352,0.6978 5.2426,0.5 5.073,0.5 L0.92701,0.5 C0.75744,0.5 0.66481,0.6978 0.77336,0.828 L2.8464,3.3156 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>

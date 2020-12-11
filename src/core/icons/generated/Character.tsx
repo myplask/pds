@@ -5,16 +5,14 @@ export const Character = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <circle cx={12} cy={9} r={2} fill="#242424" />
-      <path
-        d="M11.646 12.354a.5.5 0 01.708 0l3.792 3.792a.5.5 0 01-.353.854H8.207a.5.5 0 01-.353-.854l3.792-3.792z"
-        fill="#242424"
-      />
+      <g fill="#242424" fillRule="nonzero">
+        <circle cx={5} cy={2} r={2} />
+        <path d="M4.646 5.354a.5.5 0 01.708 0l3.792 3.792a.5.5 0 01-.353.854H1.207a.5.5 0 01-.353-.854l3.792-3.792z" />
+      </g>
     </svg>
   )
 );

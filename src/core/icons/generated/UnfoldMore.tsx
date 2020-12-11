@@ -5,17 +5,19 @@ export const UnfoldMore = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
-        d="M8.464 8.036L12 4.5l3.536 3.536M8.464 16.071L12 19.607l3.536-3.536"
+      <g
         stroke={fillColor}
         strokeWidth={2}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
-      />
+      >
+        <path d="M1.464 5.036L5 1.5l3.535 3.536M1.464 13.071L5 16.607l3.535-3.536" />
+      </g>
     </svg>
   )
 );

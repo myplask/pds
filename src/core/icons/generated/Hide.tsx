@@ -5,16 +5,18 @@ export const Hide = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
-        d="M17 10c-.777 1.766-2.936 3-5 3s-4.223-1.234-5-3M8.414 12l-1 1M16 12l1 1M12 13v1.414"
+      <g
         stroke={fillColor}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
-      />
+      >
+        <path d="M11 1c-.777 1.766-2.936 3-5 3S1.777 2.766 1 1M2.414 3l-1 1M10 3l1 1M6 4v1.414" />
+      </g>
     </svg>
   )
 );

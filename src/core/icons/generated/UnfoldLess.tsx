@@ -5,17 +5,19 @@ export const UnfoldLess = React.memo<SvgIconProps>(
     <svg
       width={size}
       height={size}
-      fill="none"
       xmlns="http://www.w3.org/2000/svg"
       style={style}
       viewBox="0 0 24 24"
     >
-      <path
-        d="M8.464 5.536L12 9.07l3.536-3.535M8.464 18.535L12 15l3.536 3.535"
+      <g
         stroke={fillColor}
         strokeWidth={2}
+        fill="none"
+        fillRule="evenodd"
         strokeLinecap="round"
-      />
+      >
+        <path d="M1.464 1.536L5 5.07l3.535-3.535M1.464 14.536L5 11l3.535 3.536" />
+      </g>
     </svg>
   )
 );

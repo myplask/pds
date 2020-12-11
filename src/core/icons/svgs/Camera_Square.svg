@@ -1,5 +1,13 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="24" height="24" rx="4" fill="#3785F7"/>
-<path d="M8 7C8 6.44772 8.44772 6 9 6H15C15.5523 6 16 6.44772 16 7.00001L16 8.00001C16 8.55229 15.5523 9 15 9H9C8.44772 9 8 8.55228 8 8V7Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M6 8C5.44772 8 5 8.44772 5 9V16C5 16.5523 5.44772 17 6 17H18C18.5523 17 19 16.5523 19 16V9C19 8.44772 18.5523 8 18 8H6ZM14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12ZM15 12C15 13.6569 13.6569 15 12 15C10.3431 15 9 13.6569 9 12C9 10.3431 10.3431 9 12 9C13.6569 9 15 10.3431 15 12Z" fill="white"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Camera_Square</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-792.000000, -1441.000000)">
+            <g id="Camera_Square" transform="translate(792.000000, 1441.000000)">
+                <rect id="Rectangle" fill="#3785F7" fill-rule="nonzero" x="0" y="0" width="24" height="24" rx="4"></rect>
+                <path d="M8,7 C8,6.44772 8.44772,6 9,6 L15,6 C15.5523,6 16,6.44772 16,7 L16,8 C16,8.55229 15.5523,9 15,9 L9,9 C8.44772,9 8,8.55228 8,8 L8,7 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M6,8 C5.44772,8 5,8.44772 5,9 L5,16 C5,16.5523 5.44772,17 6,17 L18,17 C18.5523,17 19,16.5523 19,16 L19,9 C19,8.44772 18.5523,8 18,8 L6,8 Z M14,12 C14,13.1046 13.1046,14 12,14 C10.8954,14 10,13.1046 10,12 C10,10.8954 10.8954,10 12,10 C13.1046,10 14,10.8954 14,12 Z M15,12 C15,13.6569 13.6569,15 12,15 C10.3431,15 9,13.6569 9,12 C9,10.3431 10.3431,9 12,9 C13.6569,9 15,10.3431 15,12 Z" id="Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
 </svg>

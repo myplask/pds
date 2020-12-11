@@ -1,3 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M14.2172 11.7172C14.3734 11.8734 14.3734 12.1266 14.2172 12.2828L11.1828 15.3172C10.9309 15.5691 10.5 15.3907 10.5 15.0343L10.5 8.96569C10.5 8.60932 10.9309 8.43086 11.1828 8.68284L14.2172 11.7172Z" fill="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="8px" viewBox="0 0 5 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>caret-right-medium</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-802.000000, -1449.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="caret-right-medium" transform="translate(802.000000, 1449.000000)">
+                <path d="M4.2172,3.7172 C4.3734,3.8734 4.3734,4.1266 4.2172,4.2828 L1.1828,7.3172 C0.9309,7.5691 0.5,7.3907 0.5,7.0343 L0.5,0.96569 C0.5,0.60932 0.9309,0.43086 1.1828,0.68284 L4.2172,3.7172 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>

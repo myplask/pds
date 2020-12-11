@@ -1,3 +1,11 @@
-<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M7.78321 7.04793L18.0577 10.4727L13.2969 11.8881C12.973 11.9844 12.7197 12.2378 12.6234 12.5617L11.208 17.3224L7.78321 7.04793Z" stroke="black"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Cursor</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A0" transform="translate(-798.000000, -1447.000000)" stroke="#000000">
+            <g id="Cursor" transform="translate(799.000000, 1448.000000)">
+                <path d="M0.78321,0.04793 L11.0577,3.4727 L6.2969,4.8881 C5.973,4.9844 5.7197,5.2378 5.6234,5.5617 L4.208,10.3224 L0.78321,0.04793 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
 </svg>
