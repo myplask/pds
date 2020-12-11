@@ -13,7 +13,7 @@
   "scripts": {
     "build": "yarn rollup -c && yarn build:type",
     "build:type": "tsc --emitDeclarationOnly",
-    "publish": "yarn publish"
+    "generated:svgs": "npx @svgr/cli --icon"
   },
   "peerDependencies": {
     "lodash": "^4.17.20",
@@ -22,6 +22,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@svgr/cli": "^5.5.0",
     "@svgr/rollup": "^5.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
