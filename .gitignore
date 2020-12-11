@@ -3,3 +3,8 @@ node_modules
 
 # dist
 dist
+
+# tools
+.idea
+.DS_Store
+.vscode

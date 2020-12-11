@@ -1,6 +1,6 @@
 {
   "name": "@myplask/pds",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "description": "Design System in Plask",
   "author": "Plask Inc.",
   "license": "ISC",
@@ -13,7 +13,8 @@
   "scripts": {
     "build": "yarn rollup -c && yarn build:type",
     "build:type": "tsc --emitDeclarationOnly",
-    "publish": "yarn publish"
+    "generated:svgs": "cd ./src/core/Icons/svgs && npx @svgr/cli --template ../format-template.js --config-file ../.svgrrc  *.svg --out-dir ../generated --ext tsx && yarn generated:format",
+    "generated:format": "prettier --write ./src/core/Icons/generated"
   },
   "peerDependencies": {
     "lodash": "^4.17.20",
@@ -22,6 +23,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@svgr/cli": "^5.5.0",
     "@svgr/rollup": "^5.5.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
