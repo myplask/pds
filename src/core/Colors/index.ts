@@ -9,5 +9,5 @@ export const GRAY = {
 };
 
 export const VIVID = {
-    BLUE: '#37855F7',
+    BLUE: '#3785F7',
 };
